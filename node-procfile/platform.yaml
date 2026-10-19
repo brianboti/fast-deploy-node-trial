@@ -1,0 +1,7 @@
+# Read by Fast Deploy as the draft of this service's contract. trust: reviewed says a person of the lab
+# has read this code, which Google's buildpacks need for a Node.js service (they run install scripts).
+api_version: lab/v1
+name: node-procfile
+runtime: node-http
+node: "24"
+trust: reviewed

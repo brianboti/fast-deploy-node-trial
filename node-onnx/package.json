@@ -1,0 +1,19 @@
+{
+  "name": "node-onnx",
+  "version": "1.0.0",
+  "private": true,
+  "description": "onnxruntime-node with every install script off",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^5.3.0",
+    "onnxruntime-node": "1.30.0"
+  },
+  "allowScripts": {
+    "onnxruntime-node@1.30.0": true
+  }
+}
